@@ -235,7 +235,7 @@ class Verification(commands.Cog):
         embed.set_footer(text=f"Terminal • {formatted}")
 
         # Railway OAuth URL (replace with your deployed Railway URL)
-        oauth_url = "https://your-railway-app-name.up.railway.app/roblox/oauth/start"
+        oauth_url = "https://sierraterminalstaging-production.up.railway.app/roblox/oauth/start"
 
         class RobloxOAuthView(ui.View):
             def __init__(self):
@@ -629,4 +629,5 @@ async def setup(bot: commands.Bot):
     # Role bindings have been moved to `cogs/roles.py` for clearer separation
     # and easier debugging. The roles cog will register `/roles` commands
     # and handle synchronization independently.
+
 
