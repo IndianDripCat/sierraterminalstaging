@@ -1,6 +1,8 @@
-# Add your project dependencies here
-# Example:
-# discord.py==2.0.1
-# pymongo==4.3.3
+discord.py
+aiohttp
+motor
+pymongo
 flask
 requests
+python-dotenv
+zoneinfo
