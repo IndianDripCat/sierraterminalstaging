@@ -1,0 +1,7 @@
+discord.py>=2.6
+aiohttp
+motor
+pymongo
+flask
+requests
+python-dotenv
